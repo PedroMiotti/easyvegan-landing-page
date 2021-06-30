@@ -1,0 +1,63 @@
+.download-container{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 4px 4px 4px 10px;
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #fff;
+
+    -webkit-box-shadow: 3px 4px 28px -7px #878787;
+    box-shadow: 3px 4px 28px -7px #878787;
+}
+
+
+.download-container button{
+    border: none;
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100px;
+    font-family: var(--font-play);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.download-container button:hover{
+    background-color: var(--color-primary-hover);
+    cursor: pointer;
+}
+
+.download-container div{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.download-container input{
+    border: none;
+    height: 80%;
+    width: auto;
+}
+
+.download-container input:focus {
+    outline: none;
+}
+
+.download-container .input-icon{
+    color: #6d6d6d;
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 1300px){
+
+    .download-container{
+        width: auto;
+
+    }
+
+}

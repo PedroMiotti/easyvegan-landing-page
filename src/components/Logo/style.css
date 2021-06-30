@@ -1,0 +1,27 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-image-container{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.logo-image{
+    width: auto;
+    height: 100%;
+}
+
+.logo-container h4{
+    font-family: var(--font-body);
+    color: var(--color-secundary);
+    font-size: 28px;
+}
+
+.logo-container h4 span{
+    font-family: var(--font-body);
+    color: var(--color-primary);
+}
